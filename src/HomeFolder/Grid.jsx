@@ -11,7 +11,7 @@ const Grid = ({search = ""}) => {
     Websites:
       "Useful online platforms for women and girls.They offer coding, mentoring and networking opportunites.",
     Meetups: "Community organisations that host in-person and virtual meetups.",
-    Mentors: "Coming soon.",
+    Mentors: "A list of women in tech, that provide mentorship assistance.",
   };
 
  const filteredData = directoryData.filter((item) => {
