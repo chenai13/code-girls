@@ -2,6 +2,9 @@ import React from "react";
 import "./App.css";
 import Hero from "./HomeFolder/Hero";
 import { motion, AnimatePresence } from "framer-motion";
+import magnifier from "./assets/3d-magnifier.png";
+import computer from "./assets/3d-computer.png";
+import stars from "./assets/3d-star.png";
 
 function About() {
   return (
@@ -18,11 +21,11 @@ function About() {
         }
       />
 
-      <section className="-mt-48 min-w-80 pt-12 max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-auto">
+      <section className="-mt-48 min-w-70 pt-12 max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-auto">
         <div className="p-4 h-60 rounded-lg shadow-xl transition hover:scale-[1.01]">
           <img
             className="h-20"
-            src="./src/assets/3d-magnifier.png"
+            src={magnifier}
             alt="magnifer glass icon"
           />
           <h1 className="pt-6">The Problem</h1>
@@ -33,7 +36,7 @@ function About() {
         </div>
         <div className="p-4 h-60 rounded-lg shadow-xl transition hover:scale-[1.01]">
           <img
-            src="./src/assets/3d-computer.png"
+            src={computer}
             alt="computer icon"
             className="h-20"
           />
@@ -45,7 +48,7 @@ function About() {
         </div>
         <div className="p-4 h-60 rounded-lg shadow-xl transition hover:scale-[1.01]">
           <img
-            src="./src/assets/3d-star.png"
+            src={stars}
             alt="star icon"
             className="h-20"
           />

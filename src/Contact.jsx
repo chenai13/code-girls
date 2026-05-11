@@ -19,9 +19,9 @@ function Contact() {
         }
         subtitle="Im happy to answer any questions you may have, and I’ll try to respond within a few hours."
       />
-      <section className="-mt-48 min-w-90 pt-12 grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-3">
+      <section className="-mt-48 min-w-50 pt-12 grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-3">
         <div className="flex h-44 flex-col rounded-lg bg-white shadow-2xl overflow-hidden transition hover:scale-[1.01]">
-          <div className="flex flex-row items-start border-b border-gray-200 px-8 pt-8 pb-4 ">
+          <div className="flex flex-row items-start border-b border-gray-200 px-8 pt-8 pb-4">
             <div>
               <img
                 src={profile}
@@ -29,7 +29,7 @@ function Contact() {
               ></img>
             </div>
 
-            <div className="flex flex-col pl-5 text-left ">
+            <div className="flex flex-col pl-5 text-left">
               <p className="text-sm text-gray-500">Send me a DM on LinkedIn</p>
               <h1 className="font-semibold text-gray-900 leading-tight">
                 Chenai Lamarque
@@ -56,7 +56,7 @@ function Contact() {
 
             <div className="flex flex-col pl-5 text-left">
               <p className="text-sm text-gray-500">Send me an email</p>
-              <h1 className="font-semibold text-gray-900 leading-tight">
+              <h1 className="md:text-md text-sm font-semibold text-gray-900 leading-tight ">
                 chenailamarque1@gmail.com
               </h1>
             </div>

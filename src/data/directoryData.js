@@ -1,3 +1,11 @@
+import gizem from "../images/gizem.jpg";
+import kiana from "../images/kiana.jpg";
+import lucy from "../images/lucy.jpg";
+import maria from "../images/maria.jpg";
+import tanya from "../images/tanya.jpg";
+import tehreem from "../images/tehreem.jpg";
+
+
 export const directoryData = [
   {
     id: 1,
@@ -88,7 +96,7 @@ export const directoryData = [
     description:
       "All-in-one platform for tech events, in-person meetups and communites.",
     image:
-      "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM0LjIzMjkgMzUuNzIxMlY0OS4xNjEyQzM0LjIzMjkgNDkuODY0NCAzNC44NzI5IDUwLjM5NjUgMzUuNTYxMyA1MC4yNjI2QzQyLjk4MDggNDguODIyNiA0OC44MjY0IDQyLjk4MDcgNTAuMjYyNyAzNS41NjEyQzUwLjM5NjYgMzQuODcyOCA0OS44NjQ1IDM0LjIzMjggNDkuMTYxMyAzNC4yMzI4SDM1LjcyMTNDMzQuODk5IDM0LjIzMjggMzQuMjMyOSAzNC44OTg4IDM0LjIzMjkgMzUuNzIxMloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=",
+      "https://media.licdn.com/dms/image/v2/C4E0BAQGoD0b5tAv-Og/company-logo_200_200/company-logo_200_200/0/1658486475128/guild_host_logo?e=2147483647&v=beta&t=7v9CDn8quxfhPLeZgQEBk7bYbVY3xIl6ViIvIVGAd6Y",
   },
 
   {
@@ -149,37 +157,67 @@ export const directoryData = [
     name: "Tehreem Hassan",
     type: "Mentors",
     url: "https://www.linkedin.com/in/tehreemhassan/",
-    description:
-      "Mentor for Wize Foundation",
-    image:"https://media.licdn.com/dms/image/v2/D4E03AQHeCQwROLqKNA/profile-displayphoto-scale_400_400/B4EZnN6LEEIIAg-/0/1760096203808?e=1775692800&v=beta&t=QcE43utFrWLbHrff5EkJmIt4uM_V8RTlqb9jPMm5q1k",
+    description: "Mentor for Wize Foundation",
+    image:
+      tehreem,
   },
-{
-   id: 18,
+  {
+    id: 18,
     name: "Joyce Kadibu",
     type: "Mentors",
     url: "https://www.linkedin.com/in/jbkad/",
-    description:
-      "Mentor for Girls into Coding",
-    image:"https://media.licdn.com/dms/image/v2/D4E03AQGBLd6NGZ8umw/profile-displayphoto-scale_400_400/B4EZomPnUvIMAg-/0/1761578226180?e=1775692800&v=beta&t=O7Mv9nMqOJA4hAYvxO-xWbgnmHgy0P_uh40io66mSAY",
+    description: "Mentor for Girls into Coding",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/024/983/914/large_2x/simple-user-default-icon-free-png.png",
   },
 
   {
-   id: 19,
+    id: 19,
     name: "Lucy Smith",
     type: "Mentors",
     url: "https://www.linkedin.com/in/lucy-smith-a08b40219/",
-    description:
-      "Mentor for Women in Tech and Cyber Hub",
-    image:"https://media.licdn.com/dms/image/v2/D4D03AQHiOFalyeuyHA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718807245861?e=1775692800&v=beta&t=kYsZwqmlrDEjMv9PsA8HdsgN-f6d8Dq9tJItTaOLKrs",
+    description: "Mentor for Women in Tech and Cyber Hub",
+    image:
+      lucy,
   },
 
-   {
-   id: 20,
+  {
+    id: 20,
     name: "Gizem Kumrili",
     type: "Mentors",
-    url: "https://www.linkedin.com/in/lucy-smith-a08b40219/",
-    description:
-      "Lead AI Mentor for FEMTRONICS",
-    image:"https://media.licdn.com/dms/image/v2/D4E03AQFHzRgZs593bg/profile-displayphoto-scale_400_400/B4EZychdIQGYAg-/0/1772152544072?e=1775692800&v=beta&t=tHy9CEajqrVECX2yq88O761dcDiYYyit_oS6VjBwP5s",
+    url: "https://www.linkedin.com/in/gizemkumrili/",
+    description: "Lead AI Mentor for FEMTRONICS",
+    image: gizem,
   },
+
+  {
+    id: 21,
+    name: "Kiana Nunez",
+    type: "Mentors",
+    url: "https://www.linkedin.com/in/kiananunez/",
+    description: "Peer mentor at College Steps",
+    image:
+      kiana,
+  },
+
+{
+  id: 22,
+  name: "Maria S.",
+  type: "Mentors",
+  url: "https://www.linkedin.com/in/maria-shchur/",
+  description: "Women in Tech Mentor",
+  image: maria,
+
+},
+
+{
+  id: 23,
+  name: "Tanya Powell",
+  type: "Mentors",
+  url: "https://www.linkedin.com/in/tanyapowell/",
+  description: "Software Development Mentor for Acorn Aspirations",
+  image: tanya,
+
+}
+
 ];

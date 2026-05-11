@@ -9,9 +9,9 @@ const Grid = ({search = ""}) => {
   const buttonsText = ["Websites", "Meetups", "Mentors"];
   const filterDesc = {
     Websites:
-      "Useful online platforms for women and girls.They offer coding, mentoring and networking opportunites.",
+      "Useful online platforms for women and girls. They offer coding, mentoring and networking opportunites.",
     Meetups: "Community organisations that host in-person and virtual meetups.",
-    Mentors: "A list of women in tech, that provide mentorship assistance.",
+    Mentors: "A list of women in tech that provide mentorship assistance.",
   };
 
  const filteredData = directoryData.filter((item) => {
@@ -25,9 +25,9 @@ const Grid = ({search = ""}) => {
 });
 
   return (
-    <main className="flex justify-center min-w-sm">
+    <main className="flex justify-center min-w-50">
       <section className="-mt-32 pt-12 w-full max-w-5xl px-4">
-        <div className="pl-2">
+        <div className="md:pl-1">
           <h1 className="pb-2 text-sm text-gray-600">Featured</h1>
 
           <div className="flex gap-2 mb-5 text-sm">

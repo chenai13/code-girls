@@ -34,7 +34,7 @@ function Hero({
 
   return (
     <>
-      <main className="flex justify-center text-center flex-col -mt-44 w-full min-w-80 min-h-screen pt-24">
+      <main className="flex justify-center text-center flex-col -mt-44 w-full min-w-50 min-h-screen pt-24">
         <section>
           <h1 className="text-4xl sm:text-5xl font-semibold mx-auto max-w-sm">
             <>
