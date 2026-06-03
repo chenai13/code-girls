@@ -4,6 +4,7 @@ import lucy from "../images/lucy.jpg";
 import maria from "../images/maria.jpg";
 import tanya from "../images/tanya.jpg";
 import tehreem from "../images/tehreem.jpg";
+import girlcode from "../images/girlcode.png";
 
 
 export const directoryData = [
@@ -51,8 +52,7 @@ export const directoryData = [
     name: "GirlCode",
     type: "Websites",
     url: "https://www.girlcode.dev/",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI4tngpgUIV2zxyQb6qOsl7h3GGx2g-nqmgA&s",
+    image: girlcode,
   },
   {
     id: 7,
