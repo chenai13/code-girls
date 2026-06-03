@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./HomeFolder/Home";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PageWrapper from "./PageWrapper";
